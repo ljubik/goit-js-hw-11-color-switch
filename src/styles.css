@@ -15,8 +15,22 @@ body {
   transition: color 150ms var(--timing-function),
     background-color 150ms var(--timing-function);
 }
+/* .run {
+  display: none;
+} */
 
-body {
-  background-color: gray;
-  color: black;
+button {
+  border: 1px solid #0066cc;
+  background-color: #0099cc;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+
+.run,
+button:disabled,
+.run,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #999999;
+  color: #666666;
 }
